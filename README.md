@@ -1,5 +1,5 @@
 # webscraping
-Scrape data from web and store to datasource
+Scrape and store new jobs from a job platform and store to your datasource.
 
 # Requirements
 ## Datasources
