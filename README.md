@@ -1,6 +1,7 @@
 # Summary
 Scrapes and stores new jobs from a job platform to your datasource.
 
+
 # Requirements
 ## Datasources
 The web scraper datasource that is written to is suffixed in the filename. 
@@ -14,6 +15,7 @@ The web scraper datasource that is written to is suffixed in the filename.
 
 ## VPN
 **NordVPN** is used as the vpn but feel free to use any vpn that provides the ability to change servers via code.
+
 
 # Usage
 
