@@ -21,7 +21,9 @@ The web scraper datasource that is written to is suffixed in the filename.
 
 > conn = sqlite3.connect("C:/Users/**bobsmith**/ukjobs.db")
 
-### 2. Main(**kwargs)
+### 2. Update line 55 with your local subdomain if international. Read the inline comment for an example.
+
+### 3. Main(**kwargs)
 Input the keyword arguments as defined below:
 >main(pages=1,uri='https://uk.indeed.com/jobs?as_and&as_phr&as_any&as_not&as_ttl=data%20engineer&as_cmp&jt=all&st&salary&radius=25&fromage=any&limit=50&sort&psf=advsrch&from=advancedsearch', label='DataEngineer', table='UKjobs', vpn='C:/Program Files/NordVPN/')
 #### pages
