@@ -8,9 +8,10 @@ The web scraper datasource that is written to is suffixed in the filename.
 > 
 **indeed-sqlite.py** requires a table that has the following text columns:
 
-| JKEY  | Url | Title | Salary | Body | Category | Created
-|--|--|--|--|--|--|--|--|
-|  |  | | | | | |
+|  |  |
+|--|--|
+|  |  |
+
 
 ## VPN
 **NordVPN** is used as the vpn but feel free to use any vpn that provides the ability to change servers via code.
