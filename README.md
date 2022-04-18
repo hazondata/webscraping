@@ -21,7 +21,8 @@ The web scraper datasource that is written to is suffixed in the filename.
 
 > conn = sqlite3.connect("C:/Users/**bobsmith**/ukjobs.db")
 
-### 2. Update line 55 with your local subdomain if international. Read the inline comment for an example.
+### 2. Update line 55 with your local subdomain if international.
+Read the inline comment for an example.
 
 ### 3. Main(**kwargs)
 Input the keyword arguments as defined below:
