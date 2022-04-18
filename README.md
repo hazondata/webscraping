@@ -1,4 +1,4 @@
-# webscraping
+# Summary
 Scrapes and stores new jobs from a job platform to your datasource.
 
 # Requirements
