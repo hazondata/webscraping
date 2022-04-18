@@ -20,9 +20,6 @@ The web scraper datasource that is written to is suffixed in the filename.
  ### 1. Establish a connection to your sqlite db  ↓ or wherever the db is located, for example:
 
 > conn = sqlite3.connect("C:/Users/**bobsmith**/ukjobs.db")
-> print("connected to sqlite! ✨")
-
-
 
 ### 2. Main(**kwargs)
 Input the keyword arguments as defined below:
