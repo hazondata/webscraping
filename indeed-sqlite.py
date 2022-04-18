@@ -51,8 +51,8 @@ def main(**kwargs):
     cnt = 0
     for d in dist:
         if d not in klist:
-            conn.execute(
-                f"INSERT INTO '{table}' (JKEY, Url, Category, Created) VALUES ('{d}','https://uk.indeed.com/viewjob?jk={d}','{label}', '{cdt}')")
+            conn.execute(                                                                   #  ↓ replace www with uk if needed ex: uk.indeed.com
+                f"INSERT INTO '{table}' (JKEY, Url, Category, Created) VALUES ('{d}','https://www.indeed.com/viewjob?jk={d}','{label}', '{cdt}')")
             conn.commit()
             cnt += 1
 
@@ -72,7 +72,7 @@ def main(**kwargs):
             time.sleep(10)
         res = requests.get(f'{u}')
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
-
+        
         try:
             title = soup.find('h1', 'jobsearch-JobInfoHeader-title').text.strip().replace(
                 "\n", " ").replace("'", "").replace("'", "").replace("’", "")
